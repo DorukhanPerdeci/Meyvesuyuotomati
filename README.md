@@ -11,10 +11,14 @@ Müşteriler otomatı hangi sıklıkla kullanır?
 Yoğunluk durumunda bekleme süreleri nasıl değişir?
 Otomatın servis kapasitesi yeterli midir?
 Rastgele olaylar sistem performansını nasıl etkiler?
+
+
 ⚙️ KULLANILAN TEKNOLOJİLER
 Python
 SimPy (Süreç tabanlı ayrık olay simülasyonu)
 Random modülü (rastgele müşteri gelişleri ve işlem süreleri için)
+
+
 🧠 SİMÜLASYON MANTIĞI
 
 Simülasyonda:
@@ -25,12 +29,16 @@ Otomat sınırlı kaynak olarak modellenmiştir
 Aynı anda sınırlı sayıda kullanıcıya hizmet verilebilir
 İşlem süreleri ve müşteri gelişleri rastgele dağılımlarla belirlenir
 Simülasyon belirli bir süre boyunca çalıştırılır
+
+
 🔄 SÜREÇ AKIŞI
 Müşteri sisteme gelir
 Otomatın müsait olması beklenir
 Sipariş verilir ve işlem başlar
 Meyve suyu hazırlanır
 Müşteri sistemi terk eder
+
+
 📊 ELDE EDİLEBİLECEK ÇIKTILAR
 
 Bu simülasyon ile:
@@ -43,7 +51,10 @@ Kuyruk uzunlukları
 gibi performans metrikleri analiz edilebilir.
 
 ▶️ NASIL ÇALIŞTIRILIR?
+
+
 1️⃣ Gerekli kütüphaneleri yükleyin:
 pip install simpy
 2️⃣ Python dosyasını çalıştırın:
+
 python randomsimulation.py

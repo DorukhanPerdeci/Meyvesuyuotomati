@@ -14,8 +14,11 @@ Rastgele olaylar sistem performansını nasıl etkiler?
 
 
 ⚙️ KULLANILAN TEKNOLOJİLER
+
 Python
+
 SimPy (Süreç tabanlı ayrık olay simülasyonu)
+
 Random modülü (rastgele müşteri gelişleri ve işlem süreleri için)
 
 
@@ -32,6 +35,7 @@ Simülasyon belirli bir süre boyunca çalıştırılır
 
 
 🔄 SÜREÇ AKIŞI
+
 Müşteri sisteme gelir
 Otomatın müsait olması beklenir
 Sipariş verilir ve işlem başlar
@@ -55,6 +59,6 @@ gibi performans metrikleri analiz edilebilir.
 
 1️⃣ Gerekli kütüphaneleri yükleyin:
 pip install simpy
-2️⃣ Python dosyasını çalıştırın:
 
+2️⃣ Python dosyasını çalıştırın:
 python randomsimulation.py

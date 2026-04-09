@@ -1,64 +1,64 @@
-🧃 SimPy ile Meyve Suyu Otomatı Simülasyonu
+🧃 MEYVE SUYU OTOMATI SİMÜLASYONU
+👨‍🎓 Dorukhan Perdeci
 
-Bu proje, SimPy kütüphanesi kullanılarak geliştirilmiş bir meyve suyu otomatı (vending machine) simülasyonunu içermektedir.
-Amaç, bir otomat sisteminin zaman içindeki davranışını modellemek, müşteri etkileşimlerini incelemek ve sistem performansını analiz etmektir.
+Okul No: 21430070029
+
+📌 HAKKINDA
+
+Bu proje, SimPy ve Tkinter kullanılarak geliştirilmiş basit bir meyve suyu otomatı simülasyonudur.
+Otomatın çalışma prensibini modellemek amacıyla oluşturulmuş olup, kullanıcıya sistemin nasıl işlediğini gösteren grafiksel bir kullanıcı arayüzü (GUI) sunmaktadır.
+
+Simülasyon, gerçek hayattaki bir vending machine’in davranışını taklit ederek sipariş alma, işlem süreci ve çıktı üretme adımlarını görselleştirir.
 
 📌 PROJENİN AMACI
 
-Bu simülasyon ile aşağıdaki sorulara yanıt aranır:
+Bu proje ile:
 
-Müşteriler otomatı hangi sıklıkla kullanır?
-Yoğunluk durumunda bekleme süreleri nasıl değişir?
-Otomatın servis kapasitesi yeterli midir?
-Rastgele olaylar sistem performansını nasıl etkiler?
+Otomat sistemlerinin çalışma mantığını anlamak
+Simülasyon (ayrık olay) yaklaşımını öğrenmek
+Kullanıcı etkileşimli sistemleri modellemek
+Sistem performansını gözlemlemek
 
 
 ⚙️ KULLANILAN TEKNOLOJİLER
 
 Python
 
-SimPy (Süreç tabanlı ayrık olay simülasyonu)
+SimPy (ayrık olay simülasyonu)
 
-Random modülü (rastgele müşteri gelişleri ve işlem süreleri için)
+Tkinter (GUI geliştirme)
+
+Random (rastgele süreçler)
 
 
 🧠 SİMÜLASYON MANTIĞI
 
-Simülasyonda:
-
-Müşteriler belirli aralıklarla (rastgele) sisteme gelir
-Her müşteri bir meyve suyu almak için otomatı kullanır
-Otomat sınırlı kaynak olarak modellenmiştir
-Aynı anda sınırlı sayıda kullanıcıya hizmet verilebilir
-İşlem süreleri ve müşteri gelişleri rastgele dağılımlarla belirlenir
-Simülasyon belirli bir süre boyunca çalıştırılır
-
+Sistem bir otomat kaynağı olarak modellenmiştir
+Kullanıcılar sisteme istek gönderir
+İşlem süreleri zaman bazlı olarak simüle edilir
+SimPy sayesinde olaylar sırayla ve gerçekçi şekilde ilerler
+Süreçler rastgelelik içerebilir
 
 🔄 SÜREÇ AKIŞI
 
-Müşteri sisteme gelir
-Otomatın müsait olması beklenir
-Sipariş verilir ve işlem başlar
+Kullanıcı içecek seçimi yapar
+Otomat siparişi alır
+İşlem başlatılır
 Meyve suyu hazırlanır
-Müşteri sistemi terk eder
-
+Ürün kullanıcıya teslim edilir
 
 📊 ELDE EDİLEBİLECEK ÇIKTILAR
 
-Bu simülasyon ile:
-
-Ortalama bekleme süreleri
+İşlem süreleri
 Sistem yoğunluğu
-Kaynak kullanım oranı
-Kuyruk uzunlukları
+Kullanıcı bekleme süresi
+Otomat performansı
 
-gibi performans metrikleri analiz edilebilir.
 
 ▶️ NASIL ÇALIŞTIRILIR?
 
-
-1️⃣ Gerekli kütüphaneleri yükleyin:
+1️⃣ Gerekli kütüphaneyi yükleyin:
 pip install simpy
 
-2️⃣ Python dosyasını çalıştırın:
+2️⃣ Programı çalıştırın:
 python randomsimulation.py
